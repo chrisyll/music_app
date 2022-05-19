@@ -1,0 +1,12 @@
+[{
+	"name": "lake",
+	"exploreImage": "lake"
+},
+{
+	"name": "woods",
+	"exploreImage": "woods"
+},
+{
+	"name": "city",
+	"exploreImage": "city"
+}]

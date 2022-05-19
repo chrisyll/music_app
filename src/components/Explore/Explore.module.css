@@ -1,0 +1,50 @@
+.Explore {
+    background-color: rgb(39, 39, 39);
+    width: 100%;
+    height: 512px;
+}
+
+.Explore p {
+    width: fit-content;
+    margin: 0 auto;
+    padding-top: 32px ;
+    color: white;
+    font-size: 1.3em;
+    font-weight: 500;
+}
+
+.ExploreItems{
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+    margin-top: 52px;
+}
+
+.ExploreItem {
+    width: 25%;
+    height: 240px;
+    text-align: center;
+    font-weight: 500;
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+.ExploreItem:hover {
+    color: rgb(201, 201, 201);
+}
+
+@media (max-width: 768px) {
+
+    .Explore {
+        height: fit-content;
+    }
+
+    .ExploreItems {
+        flex-direction: column;
+    }
+
+    .ExploreItem {
+        width: 75%;
+        margin: 16px auto;
+    }
+}

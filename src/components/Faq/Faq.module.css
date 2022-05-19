@@ -1,0 +1,32 @@
+.Container {
+    margin-top: 46px
+}
+
+.Container h1 {
+    width:50%;
+    margin: 0 auto;
+    font-size: 22px;
+}
+
+.Block {
+    width: 50%;
+    border-bottom: 3px solid white;
+    height: 120px;
+    margin: 32px auto;
+    padding: 8px;
+}
+
+.Block h1 {
+    font-size: 16px;
+}
+
+@media (max-width: 768px) {
+    .Block {
+        height: fit-content;
+        width: 75%;
+    }
+
+    .Container h1 {
+        width: 75%;
+    }
+}

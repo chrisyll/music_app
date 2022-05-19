@@ -1,0 +1,22 @@
+.ToTopButton {
+    border-radius: 50%;
+    font-size: 2.5em;
+    background: radial-gradient(white 50%, transparent 50%);
+    position: fixed;
+    bottom: 140px;
+    right: 64px;
+    cursor: pointer;
+    transition: transform 0.4s;
+}
+
+.ToTopButton:hover{
+    transform: scale(1.1);
+}
+
+.Visible {
+    visibility: visible;
+}
+
+.NotVisible {
+    visibility: hidden;
+}

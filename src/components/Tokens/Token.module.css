@@ -1,0 +1,73 @@
+.Tokens {
+    padding: 46px;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.TokensHeading {
+    font-size: 20px;
+    font-weight: 500;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.TokensWarning {
+    color: red;
+    font-weight: 500;
+    width: 50%;
+    margin: 8px auto;
+}
+
+.TokenItem {
+    width: 50%;
+    margin: 32px auto;
+    border: 2px solid #eaeaea;
+    box-sizing: border-box;
+    padding: 16px;
+    background-color: white;
+}
+
+.TokenButton {
+    display: block;
+    box-sizing: border-box;
+    margin: 32px auto;
+    width: 35%;
+    color: black;
+    background-color: white;
+    border: 1px solid rgb(223, 223, 223);
+    padding: 10px;
+    font-size: 16px ;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.TokenButton:hover {
+    background-color: black;
+    color: white;
+}
+
+@media (max-width: 1024px) {
+    .Tokens {
+        width: 100%;
+        box-sizing: border-box;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .TokenItem {
+        width: 100%;
+    }
+
+    .TokenButton {
+        width: 100%;
+    }
+
+    .TokensHeading {
+        width: 100%;
+    }
+
+    .TokensWarning {
+        width: 100%;
+    }
+}

@@ -1,0 +1,132 @@
+.Upload {
+    width: 100%;
+    margin-top: 46px;
+}
+
+.Upload h1 {
+    width: 20%;
+    margin: 0 auto;
+    font-size: 22px;
+}
+
+.UploadBlock {
+    width: 20%;
+    margin: 26px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.UploadBlock input {
+    padding: 10px;
+    outline: none;
+    border: 1px solid #eaeaea;
+    box-sizing: border-box;
+}
+
+.UploadBlock input[type = 'text']:focus {
+    outline: 2px solid #dfdfdf;
+}
+
+.UploadBlock input[type = 'textarea']:focus {
+    outline: 2px solid #dfdfdf;
+}
+
+.UploadBlock input[type = 'number']:focus {
+    outline: 2px solid #dfdfdf;
+}
+
+.UploadBlock label {
+    margin: 12px 0;
+}
+
+.UploadBlock input[type='file'] {
+    position: fixed;
+    right: 100%;
+    bottom: 100%;
+}
+
+.UploadBlock textarea {
+    outline: none;
+    border: 1px solid #eaeaea;
+    resize: none;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+.UploadBlock textarea:focus {
+    outline: 2px solid #dfdfdf;
+}
+
+.UploadBlock div div {
+    margin: 8px 0;
+    font-size: 14px;
+}
+
+.UploadBlock div div label {
+    padding-left: 8px;
+}
+
+.CustomUpload {
+    border: 1px solid #eaeaea;
+    display: inline-block;
+    padding: 6px 12px;
+    cursor: pointer;
+    background-color: white;
+    padding: 10px;
+    transition: all 0.3s;
+}
+
+.CustomUpload:hover {
+    background-color: black;
+    color: white
+}
+
+.UploadSubmit {
+    display: block;
+    box-sizing: border-box;
+    margin: 80px auto;
+    width: 10%;
+    color: black;
+    background-color: white;
+    border: 1px solid rgb(223, 223, 223);
+    padding: 10px;
+    font-size: 16px ;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.UploadSubmit:hover {
+    background-color: black;
+    color: white;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type=number] {
+  -moz-appearance: textfield;
+  width: 25%;
+}
+
+@media (max-width: 1024px){
+    .Upload h1 {
+        width: 100%;
+        text-align: center;
+    }
+
+    .UploadBlock {
+        width: 50%;
+    }
+
+    input[type = number] {
+        width: 50%;
+    }
+
+    .UploadSubmit {
+        width: 50%;
+    }
+}

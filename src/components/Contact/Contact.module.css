@@ -1,0 +1,68 @@
+.Contact {
+    width: 100%;
+    margin-top: 46px;
+}
+
+.InputBlock {
+    width: 20%;
+    margin: 26px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.InputBlock input {
+    padding: 10px;
+    outline: none;
+    border: 1px solid #eaeaea;
+    box-sizing: border-box;
+}
+
+.InputBlock input:focus {
+    outline: 2px solid #dfdfdf;
+}
+
+.InputBlock label {    
+    margin: 12px 0;
+}
+
+.Contact textarea {
+    outline: none;
+    border: 1px solid #eaeaea;
+    resize: none;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+.Contact textarea:focus {
+    outline: 2px solid #dfdfdf;
+}
+
+.Submit {
+    display: block;
+    box-sizing: border-box;
+    margin: 100px auto;
+    width: 10%;
+    color: black;
+    background-color: white;
+    border: 1px solid rgb(223, 223, 223);
+    padding: 10px;
+    font-size: 16px ;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.Submit:hover {
+    background-color: black;
+    color: white;
+}
+
+@media (max-width: 768px) {
+    .InputBlock {
+        width: 50%;
+    }
+
+    .Submit {
+        width: 50%;
+    }
+}

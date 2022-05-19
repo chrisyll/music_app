@@ -1,0 +1,89 @@
+.Checkout {
+    padding: 46px;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.Checkout .Thumbnail {
+    width: 80px;
+    height: 80px;
+    background-color: black;
+    object-fit: cover;
+    margin-right: 12px;
+    margin-top: 12px;
+}
+
+.CheckoutForm {
+    width: 100%;
+    margin: 52px auto;
+    text-align: center;
+}
+
+.Checkout .Input {
+    padding: 10px;
+    outline: none;
+    border: 1px solid #eaeaea;
+    box-sizing: border-box;
+    width: 35%;
+    margin: 12px;
+    text-transform: uppercase;
+}
+
+.Checkout .Input:focus {
+    outline: 2px solid #dfdfdf;
+}
+
+.Checkout button {
+    display: block;
+    box-sizing: border-box;
+    margin: 32px auto;
+    width: 35%;
+    color: black;
+    background-color: white;
+    border: 1px solid rgb(223, 223, 223);
+    padding: 10px;
+    font-size: 16px ;
+    cursor: not-allowed;
+    transition: all 0.3s;
+}
+
+.Checkout button:hover {
+    background-color: black;
+    color: white;
+}
+
+.Remove {
+    background-image: url(/public/assets/close.png);
+    background-repeat: no-repeat;
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.Remove:hover {
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    .CheckoutForm {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .CheckoutForm .Input {
+        width: 100%;   
+    }
+}
+
+@media (max-width: 425px) {
+    .Checkout {
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .Checkout button {
+        width: 100%;
+    }
+}

@@ -1,0 +1,16 @@
+.App {
+  margin: 0;
+}
+
+.Message {
+  position: fixed;
+  bottom: 20%;
+  left: 50%;
+  background-color: rgb(0, 0, 0);
+  color: white;
+  width: fit-content;
+  padding: 8px 24px;
+  border-radius: 20px;
+  border: 1px solid rgb(138, 138, 138);
+  transition: all 0.3s;
+}

@@ -1,0 +1,65 @@
+.LayoutItem {
+    width: 60%;
+    margin: 64px auto;
+    display: flex;
+    height: fit-content;
+}
+
+.Thumbnail {
+    width: 45%;
+    height: 240px;
+    margin-right: 18px;
+    object-fit: cover;
+}
+
+.Misc {
+    width: 65%;
+}
+
+.Misc button {
+    outline: none;
+    border: none;
+    width: 128px;
+    height: 32px;
+    padding: 0;
+    cursor: pointer;
+    font-weight: bolder;
+    float: left;
+}
+
+.ToCart {
+    color: black;
+    background-color: white;
+    margin-right: 24px;
+}
+
+.Buy {
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    width: 128px;
+    line-height: 32px;
+    color: white;
+    background-color: black;
+}
+
+@media (max-width: 1024px) {
+    .LayoutItem {
+        display: flex;
+        flex-direction: column;
+        width: 75%;
+    }
+
+    .Misc {
+        margin-top: 16px;
+        width: 100%;
+    }
+
+    .Thumbnail {
+        width: 100%;
+    }
+
+    .ToCart {
+        margin-bottom: 8px;
+    }
+}
